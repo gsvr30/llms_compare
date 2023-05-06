@@ -1,0 +1,104 @@
+anaconda version 2020.07 unloaded.
+gcc version 12.1.0 unloaded.
+Intel compiler suite version 19.0.5 unloaded.
+IU-Quota version 1.8 unloaded.
+Git version control system version 2.13.0 unloaded.
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda deactivate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+cudatoolkit version 11.7 loaded.
+Deep Learning stack for Cuda 11.7 loaded
+Tue Apr 25 00:12:05 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 515.43.04    Driver Version: 515.43.04    CUDA Version: 11.7     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-PCIE...  On   | 00000000:88:00.0 Off |                    0 |
+| N/A   25C    P0    22W / 250W |      0MiB / 32768MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: transformers in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (4.28.1)
+Requirement already satisfied: datasets in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (2.11.0)
+Requirement already satisfied: huggingface-hub<1.0,>=0.11.0 in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from transformers) (0.14.0)
+Requirement already satisfied: tqdm>=4.27 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from transformers) (4.65.0)
+Requirement already satisfied: tokenizers!=0.11.3,<0.14,>=0.11.1 in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from transformers) (0.13.3)
+Requirement already satisfied: regex!=2019.12.17 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from transformers) (2023.3.23)
+Requirement already satisfied: pyyaml>=5.1 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from transformers) (6.0)
+Requirement already satisfied: packaging>=20.0 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from transformers) (23.0)
+Requirement already satisfied: numpy>=1.17 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from transformers) (1.23.5)
+Requirement already satisfied: requests in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from transformers) (2.28.2)
+Requirement already satisfied: filelock in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from transformers) (3.10.7)
+Requirement already satisfied: xxhash in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from datasets) (3.2.0)
+Requirement already satisfied: multiprocess in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from datasets) (0.70.14)
+Requirement already satisfied: pyarrow>=8.0.0 in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from datasets) (11.0.0)
+Requirement already satisfied: dill<0.3.7,>=0.3.0 in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from datasets) (0.3.6)
+Requirement already satisfied: fsspec[http]>=2021.11.1 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from datasets) (2023.3.0)
+Requirement already satisfied: responses<0.19 in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from datasets) (0.18.0)
+Requirement already satisfied: aiohttp in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from datasets) (3.8.4)
+Requirement already satisfied: pandas in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from datasets) (1.5.3)
+Requirement already satisfied: aiosignal>=1.1.2 in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from aiohttp->datasets) (1.3.1)
+Requirement already satisfied: frozenlist>=1.1.1 in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from aiohttp->datasets) (1.3.3)
+Requirement already satisfied: attrs>=17.3.0 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from aiohttp->datasets) (22.2.0)
+Requirement already satisfied: async-timeout<5.0,>=4.0.0a3 in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from aiohttp->datasets) (4.0.2)
+Requirement already satisfied: multidict<7.0,>=4.5 in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from aiohttp->datasets) (6.0.4)
+Requirement already satisfied: yarl<2.0,>=1.0 in /geode2/home/u080/sgourav/Carbonate/.local/lib/python3.10/site-packages (from aiohttp->datasets) (1.9.1)
+Requirement already satisfied: charset-normalizer<4.0,>=2.0 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from aiohttp->datasets) (3.1.0)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from huggingface-hub<1.0,>=0.11.0->transformers) (4.5.0)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from requests->transformers) (1.26.15)
+Requirement already satisfied: idna<4,>=2.5 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from requests->transformers) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from requests->transformers) (2022.12.7)
+Requirement already satisfied: python-dateutil>=2.8.1 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from pandas->datasets) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from pandas->datasets) (2023.3)
+Requirement already satisfied: six>=1.5 in /geode2/soft/hps/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages (from python-dateutil>=2.8.1->pandas->datasets) (1.16.0)
+
+[notice] A new release of pip available: 22.3.1 -> 23.1.1
+[notice] To update, run: python3.10 -m pip install --upgrade pip
+Some weights of the model checkpoint at facebook/bart-base were not used when initializing BartForCausalLM: ['encoder.layers.4.self_attn.out_proj.weight', 'encoder.layers.0.self_attn.v_proj.bias', 'encoder.layers.5.self_attn.v_proj.bias', 'encoder.layers.1.self_attn_layer_norm.bias', 'encoder.layers.3.fc2.bias', 'encoder.layers.5.final_layer_norm.weight', 'encoder.layers.2.final_layer_norm.bias', 'encoder.layers.5.self_attn.k_proj.weight', 'encoder.layers.3.self_attn.q_proj.weight', 'encoder.layers.5.fc2.bias', 'encoder.layers.4.self_attn.k_proj.bias', 'encoder.layers.4.self_attn.v_proj.weight', 'encoder.layers.0.self_attn.k_proj.bias', 'encoder.layers.3.self_attn_layer_norm.weight', 'encoder.layers.5.self_attn.out_proj.bias', 'encoder.layers.0.fc1.weight', 'encoder.layers.2.self_attn.v_proj.weight', 'encoder.layers.4.fc2.weight', 'shared.weight', 'encoder.layers.1.fc1.bias', 'encoder.layers.0.fc1.bias', 'encoder.layers.0.self_attn.q_proj.bias', 'encoder.layers.3.fc2.weight', 'encoder.layers.2.fc2.weight', 'encoder.layers.1.final_layer_norm.weight', 'encoder.layers.2.self_attn.q_proj.weight', 'encoder.layers.1.self_attn.q_proj.weight', 'encoder.layers.1.fc2.weight', 'encoder.layers.4.fc2.bias', 'encoder.layers.0.fc2.bias', 'encoder.layers.3.self_attn.v_proj.weight', 'encoder.layers.4.self_attn.out_proj.bias', 'encoder.layers.3.final_layer_norm.weight', 'encoder.layers.0.self_attn.k_proj.weight', 'encoder.layers.3.self_attn.out_proj.bias', 'encoder.layers.5.self_attn.v_proj.weight', 'encoder.layers.3.fc1.bias', 'encoder.layers.5.self_attn.k_proj.bias', 'encoder.layers.1.self_attn.v_proj.weight', 'encoder.layers.4.self_attn_layer_norm.weight', 'encoder.layernorm_embedding.bias', 'encoder.layers.2.fc1.bias', 'encoder.layers.3.final_layer_norm.bias', 'encoder.layers.2.self_attn.out_proj.weight', 'encoder.layers.3.self_attn.k_proj.weight', 'encoder.layers.0.final_layer_norm.weight', 'encoder.layers.2.self_attn.out_proj.bias', 'encoder.layers.3.self_attn.k_proj.bias', 'encoder.layers.0.fc2.weight', 'encoder.layers.1.self_attn.k_proj.weight', 'encoder.layers.5.fc2.weight', 'encoder.layers.4.final_layer_norm.weight', 'encoder.layers.0.self_attn.out_proj.bias', 'encoder.layers.3.self_attn.q_proj.bias', 'encoder.layers.0.self_attn_layer_norm.weight', 'encoder.layers.5.final_layer_norm.bias', 'encoder.layers.0.self_attn.q_proj.weight', 'encoder.layers.1.self_attn.v_proj.bias', 'encoder.layers.5.self_attn_layer_norm.bias', 'encoder.layers.4.fc1.weight', 'encoder.layers.5.fc1.weight', 'encoder.layers.3.self_attn_layer_norm.bias', 'encoder.layers.4.self_attn.q_proj.weight', 'encoder.layers.2.fc1.weight', 'encoder.layers.2.fc2.bias', 'encoder.layers.3.self_attn.v_proj.bias', 'encoder.layers.0.final_layer_norm.bias', 'encoder.layers.2.self_attn.q_proj.bias', 'encoder.layers.1.self_attn.k_proj.bias', 'encoder.layers.0.self_attn.v_proj.weight', 'encoder.layers.1.final_layer_norm.bias', 'encoder.embed_positions.weight', 'encoder.layers.1.fc1.weight', 'encoder.layers.0.self_attn_layer_norm.bias', 'encoder.layers.3.self_attn.out_proj.weight', 'encoder.layers.4.self_attn_layer_norm.bias', 'encoder.layers.1.self_attn.q_proj.bias', 'encoder.layers.1.self_attn_layer_norm.weight', 'encoder.layers.2.final_layer_norm.weight', 'encoder.layers.5.self_attn.q_proj.bias', 'encoder.layers.4.self_attn.q_proj.bias', 'encoder.layers.5.fc1.bias', 'encoder.layers.1.self_attn.out_proj.weight', 'encoder.layers.4.self_attn.v_proj.bias', 'encoder.layers.1.fc2.bias', 'encoder.layers.2.self_attn.v_proj.bias', 'encoder.layers.5.self_attn.out_proj.weight', 'encoder.layers.3.fc1.weight', 'encoder.layers.2.self_attn.k_proj.weight', 'encoder.layers.2.self_attn_layer_norm.bias', 'encoder.layers.0.self_attn.out_proj.weight', 'encoder.layers.5.self_attn.q_proj.weight', 'encoder.layers.2.self_attn.k_proj.bias', 'encoder.layernorm_embedding.weight', 'encoder.layers.4.self_attn.k_proj.weight', 'encoder.layers.4.final_layer_norm.bias', 'encoder.layers.1.self_attn.out_proj.bias', 'encoder.layers.5.self_attn_layer_norm.weight', 'encoder.embed_tokens.weight', 'encoder.layers.2.self_attn_layer_norm.weight', 'encoder.layers.4.fc1.bias']
+- This IS expected if you are initializing BartForCausalLM from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BartForCausalLM from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Found cached dataset glue (/N/u/sgourav/Carbonate/.cache/huggingface/datasets/glue/cola/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+Found cached dataset glue (/N/u/sgourav/Carbonate/.cache/huggingface/datasets/glue/sst2/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+/N/soft/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/N/soft/rhel7/deeplearning/Python-3.10.10/lib/python3.10/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+CoLA Zero-Shot Results:
+Accuracy: 0.3087
+Precision: 0.0953
+Recall: 0.3087
+F1 Score: 0.1457
+
+SST-2 Zero-Shot Results:
+Accuracy: 0.4908
+Precision: 0.2409
+Recall: 0.4908
+F1 Score: 0.3232
+
