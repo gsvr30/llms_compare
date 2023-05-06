@@ -7,10 +7,10 @@
 #SBATCH --mem-per-gpu=128G
 #SBATCH --time=02:00:00
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=suchilu@iu.edu
+#SBATCH --mail-user=abhiasth@iu.edu
 #SBATCH -A r00134
 module purge
 module load deeplearning/2.12.0
 nvidia-smi
 pip3 install transformers datasets
-python OPT_all.py
+python GPT-neo-all.py
