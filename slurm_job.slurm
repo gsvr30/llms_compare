@@ -7,7 +7,7 @@
 #SBATCH --mem-per-gpu=128G
 #SBATCH --time=02:00:00
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=sgourav@iu.edu
+#SBATCH --mail-user=arsjoshi@iu.edu
 #SBATCH -A r00134
 module purge
 module load deeplearning/2.12.0
